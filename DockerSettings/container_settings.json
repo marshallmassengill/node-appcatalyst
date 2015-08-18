@@ -1,0 +1,12 @@
+{
+  "_comment": "FOR DETAILED FORMAT LOOK AT https://docs.docker.com/reference/api/docker_remote_api_v1.16/#create-a-container",
+  "AttachStdin": true,
+  "OpenStdin": true,
+  "HostConfig": {
+    "Binds": ["/Users/kthieler/IdeaProjects/node-appcatalyst/DockerOut:/app"],
+    "PortBindings":{ "8081/tcp": [{ "HostIp": "0.0.0.0", "HostPort": "18080" }] }
+  },
+  "Volumes": {
+    "/app": "/app"
+  }
+}
