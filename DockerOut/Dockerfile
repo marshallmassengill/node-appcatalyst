@@ -24,4 +24,4 @@ ADD . /opt/app
 
 WORKDIR /opt/app
 
-CMD ["nodemon", "/app/index.js"]
+CMD ["nodemon", "index.js"]

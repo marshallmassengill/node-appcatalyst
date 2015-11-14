@@ -3,8 +3,8 @@
   "AttachStdin": true,
   "OpenStdin": true,
   "HostConfig": {
-    "Binds": ["/Users/kthieler/IdeaProjects/node-appcatalyst/DockerOut:/app"],
-    "PortBindings":{ "8081/tcp": [{ "HostIp": "0.0.0.0", "HostPort": "18080" }] }
+    "Binds": ["/Users/marshall/Desktop/node-appcatalyst/DockerOut:/app"],
+    "PortBindings":{ "8081/tcp": [{ "HostIp": "0.0.0.0", "HostPort": "8081" }] }
   },
   "Volumes": {
     "/app": "/app"
